@@ -1,4 +1,4 @@
-import Image from "next/image";
+import LinksButtom from '@/app/components/LinksButtom'
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <div>
         <ul>
           <li>
-            <h1>Github</h1>
+            <LinksButtom href='https://github.com/leovizeu' title='Github'> Github </LinksButtom>
           </li>
           <li>
             <h1>LinkedIn</h1>
